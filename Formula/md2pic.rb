@@ -2,7 +2,7 @@ class Md2pic < Formula
   desc "Convert Markdown files to PNG images"
   homepage "https://github.com/Shiorangerin/md2pic"
   url "https://github.com/Shiorangerin/md2pic/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "20e44501a16e3ed36dc48bde6902f0098fc0f76ddd0503602eb9c1155438c7a8"
+  sha256 "8d9eadb5cbc245eb12432632a1ca4fb50d6137b401732647a85a22d2fc4661b2"
   license "MIT"
 
   depends_on "node"
