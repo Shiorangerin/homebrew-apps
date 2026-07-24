@@ -2,7 +2,7 @@ class Miyu4mac < Formula
   desc "Terminal AI assistant for macOS"
   homepage "https://github.com/Shiorangerin/Miyu-For-Mac"
   url "https://github.com/Shiorangerin/Miyu-For-Mac/releases/download/v0.2.1/miyu4mac-v0.2.1-arm64.tar.gz"
-  sha256 "84145df8bbe8eb5c17d52db79bb8b2c1f0f37dad60e5179dd796c319e7c0e826"
+  sha256 "4d63fee4f4e91f179a721384dcfbc2f1ab0e7c4ee5e5e067a77bde256c56921d"
   license "MIT"
   version "0.2.1"
 
