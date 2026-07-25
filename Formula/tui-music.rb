@@ -1,11 +1,11 @@
 class TuiMusic < Formula
-  v = "0.1.6"
+  v = "0.1.7"
   tag = "v#{v}"
 
   desc "Terminal music player with live FFT spectrum visualization (Rust)"
   homepage "https://github.com/Shiorangerin/tui-music"
   url "https://github.com/Shiorangerin/tui-music/archive/refs/tags/#{tag}.tar.gz"
-  sha256 "ad321df5b2ec7b56d85a37a8ed73f0ccb34170e1fa4b5ccd12745dda8ada4943"
+  sha256 "b6f20c17774cba82ebee4be9e8c572e18550775c7684e52f94cbda9780b34732"
   license "MIT"
   version v
   head "https://github.com/Shiorangerin/tui-music.git", branch: "main"
@@ -13,8 +13,8 @@ class TuiMusic < Formula
   depends_on "rust" => :build
 
   bottle do
-    root_url "https://github.com/Shiorangerin/tui-music/releases/download/v0.1.6"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "594b56fdf635e173c8e9da37aa6fa9b22de60f485d99bd54b95863f009f7ba35"
+    root_url "https://github.com/Shiorangerin/tui-music/releases/download/v0.1.7"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "c01d4c4abbeee79572075566b6a79090845f149875314a339224830e2f960d80"
   end
 
   def install
