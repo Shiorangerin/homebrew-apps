@@ -1,11 +1,11 @@
 class TuiMusic < Formula
-  v = "0.1.14"
+  v = "0.1.15"
   tag = "v#{v}"
 
   desc "Terminal music player with live FFT spectrum visualization (Rust)"
   homepage "https://github.com/Shiorangerin/tui-music"
   url "https://github.com/Shiorangerin/tui-music/archive/refs/tags/#{tag}.tar.gz"
-  sha256 "fc5381bc138a54e3c48ceac7eddf548dea058e8f0721320b53815a1fd0ac9462"
+  sha256 "9ffbb83de7ecb7478fdad88fe7f0cf82b0ccb62ecba6bb95028d6e642bcd7683"
   license "MIT"
   version v
   head "https://github.com/Shiorangerin/tui-music.git", branch: "main"
