@@ -8,11 +8,11 @@ class Md2pic < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", "--omit=dev"
+    system "npm", *std_npm_args
     libexec.install Dir["*"]
     (bin/"md2pic").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/md2pic.js" "$@"
+      exec "#{formula_opt_bin("node")}/node" "#{libexec}/md2pic.js" "$@"
     EOS
   end
 
@@ -24,6 +24,7 @@ class Md2pic < Formula
   test do
     (testpath/"test.md").write "# Hello\n\nTest **markdown** file."
     system bin/"md2pic", testpath/"test.md"
-    assert_predicate testpath/"test.png", :exist?
+    assert_path_exists testpath/"test.png"
   end
 end
+
