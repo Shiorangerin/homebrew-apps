@@ -30,4 +30,8 @@ class BiliMusic < Formula
   def install
     bin.install "bmusic"
   end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/bmusic --version")
+  end
 end
