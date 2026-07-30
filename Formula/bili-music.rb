@@ -1,8 +1,8 @@
 class BiliMusic < Formula
   desc "极简 Bilibili 音视频批量提取工具 (Rust) —— 从任意 txt 扫描所有 BV 链接批量下载"
   homepage "https://github.com/Shiorangerin/BiliMusic"
-  license "MIT"
   version "0.2.0"
+  license "MIT"
 
   on_macos do
     on_arm do
@@ -29,7 +29,6 @@ class BiliMusic < Formula
   depends_on "ffmpeg"
 
   def install
-    # 二进制在子目录中，命名 bili-music-<target>/bmusic
     bin.install "bmusic"
   end
 
