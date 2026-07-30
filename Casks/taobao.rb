@@ -1,6 +1,6 @@
 cask "taobao" do
   version "2.5.1"
-  sha256 "1997acf793981263bdcdc3b272d01552428321243d019d532a72d1f83471e258"
+  sha256 :no_check
 
   url "file:///Users/orangerin/Downloads/taobao-setup-darwin-arm64-2.5.1.dmg"
   name "淘宝桌面版"

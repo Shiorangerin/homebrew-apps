@@ -27,4 +27,3 @@ class Md2pic < Formula
     assert_path_exists testpath/"test.png"
   end
 end
-

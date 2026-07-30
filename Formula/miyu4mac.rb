@@ -13,4 +13,3 @@ class Miyu4mac < Formula
     assert_match "Miyu", shell_output("#{bin}/miyu --version")
   end
 end
-
